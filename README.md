@@ -4,6 +4,12 @@
 
 A Wagmi-like, framework-agnostic SDK for building privacy-preserving decentralized applications with Fully Homomorphic Encryption.
 
+## 🔗 Quick Links
+
+- **💻 Bounty Program Repository**: [https://github.com/MyleneMcClure/fhevm-react-template](https://github.com/MyleneMcClure/fhevm-react-template)
+- **🌐 Live Example Application**: [https://fhe-museum-visit-tracker.vercel.app/](https://fhe-museum-visit-tracker.vercel.app/)
+- **🎬 Demo Video**: `demo.mp4` - Download the video file from the repository to watch the complete demonstration (the video file requires download to view, links cannot be opened directly)
+
 ## 🎯 Project Overview
 
 This project provides a complete ecosystem for building privacy-preserving dApps using Zama's FHEVM technology:
@@ -387,72 +393,27 @@ Hook for writing to contract.
 
 ## 🎬 Demo Video
 
-**demo.mp4** (To be recorded)
+**Important**: The demonstration video `demo.mp4` is included in the repository.
 
-The demo video will showcase:
-1. **SDK Installation** - Installing and setting up the SDK
-2. **Client Initialization** - Connecting to FHEVM
-3. **Encryption Flow** - Encrypting sensitive data
-4. **Contract Interaction** - Sending encrypted data to smart contracts
-5. **Decryption Flow** - Retrieving and decrypting data
-6. **Next.js Integration** - Using React hooks in a real application
-7. **Live Demo** - Complete user journey through the museum tracker
+**To watch the demo**:
+1. Clone or download the repository from GitHub
+2. Locate the `demo.mp4` file in the root directory
+3. Download and open the file with your video player
 
-### Recording Instructions
+**Note**: The video file requires download to view. Direct video links cannot be opened in browsers due to file size and format. Please download the file from the GitHub repository to watch the complete demonstration of the FHEVM SDK.
 
-To create demo.mp4:
+The demo video covers:
+- **SDK Installation** - Installing and setting up the SDK
+- **Client Initialization** - Connecting to FHEVM
+- **Encryption Flow** - Encrypting sensitive data
+- **Contract Interaction** - Sending encrypted data to smart contracts
+- **Decryption Flow** - Retrieving and decrypting data
+- **Next.js Integration** - Using React hooks in a real application
+- **Live Demo** - Complete user journey through the museum tracker
 
-1. **Introduction (30 sec)**
-   - Show project structure
-   - Explain FHEVM SDK purpose
+**Duration**: ~7-8 minutes
 
-2. **SDK Setup (1 min)**
-   - npm install fhevm-sdk
-   - Show client initialization code
-   - Explain configuration
-
-3. **Encryption Demo (1 min)**
-   - Show encryption of single value
-   - Demonstrate batch encryption
-   - Display encrypted output
-
-4. **Contract Interaction (1 min)**
-   - Deploy or connect to contract
-   - Send encrypted data
-   - Show transaction confirmation
-
-5. **Decryption Demo (30 sec)**
-   - Retrieve encrypted data
-   - Decrypt and display
-   - Explain access control
-
-6. **Next.js Application (2 min)**
-   - Run Next.js showcase
-   - Connect wallet
-   - Register visitor with encrypted age
-   - Record visit with feedback
-   - Show transaction confirmations
-
-7. **React Hooks (1 min)**
-   - Show useFHEVM hook code
-   - Explain useFHEVMRead and useFHEVMWrite
-   - Demonstrate real-time updates
-
-8. **Summary (30 sec)**
-   - Recap key features
-   - Show use cases
-   - Point to documentation
-
-**Total Duration:** ~7-8 minutes
-
-### Video Requirements
-
-- Format: MP4
-- Resolution: 1920x1080 (Full HD)
-- Framerate: 30fps
-- Audio: Clear narration explaining each step
-- Captions: Optional but recommended
-- Tools: OBS Studio, Loom, or similar screen recording software
+For detailed recording instructions, see [DEMO_VIDEO_GUIDE.md](DEMO_VIDEO_GUIDE.md)
 
 ## 🏗️ Architecture
 
